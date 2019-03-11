@@ -12,4 +12,4 @@ Trello
 Discord
 
 # Team Roles
-#
+# Kyle Tate - UI-UX Design & Client Liason
