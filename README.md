@@ -5,3 +5,11 @@
 # Repo Location
 [Error404](https://github.com/GGC-SD/Error404)
 
+# Progress Tracking Tools
+Trello
+
+# Other Communitcation Tools
+Discord
+
+# Team Roles
+#
