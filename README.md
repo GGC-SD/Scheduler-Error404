@@ -17,3 +17,5 @@ Discord
 2. **Jonathan Mwizerwa** - Lead Programmer & Project Manager :top:
 3. **Mark Stiller** - Documentation & Testing :floppy_disk:
 4. **Joshua Walton** - Data Modeling & Testing Lead :metal::pray:
+
+# Installation Instructions:
