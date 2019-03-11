@@ -13,6 +13,6 @@ Trello
 Discord
 
 # Team Roles
-1. **Kyle Tate** - UI-UX Design & Client Liason
+1. **Kyle Tate** - UI-UX Design & Client Liason :alien:
 2. **Jonathan Mwizerwa** - Lead Programmer & Project Manager :top:
 3. **Mark Stiller** - Documentation & Testing :floppy_disk:
