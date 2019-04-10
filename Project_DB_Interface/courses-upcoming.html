@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link rel="stylesheet" href="courses-offered.css">
+    </head>
+    <body style="background-color:#a5acb0;">
+            <header>
+                <img src="unknown.png" alt ="GGC Banner" width=100%>
+            </header>
+
+            <div class="topnav">
+                <a href="#">Log Out</a>
+            </div>
+
+            <span>
+                <h1></h1>
+                <h1></h1>
+                <button onclick="window.location.href = 'Welcome To Your Home Page Faculty.html'">Return to Home Page</button>
+                <h3 id = "tablename">Courses Available for Upcoming Semester (Fall 2019)</h3>
+            </span>
+
+            <input type="text" id="myInput" onkeyup="myFunction2()" placeholder="Search for course title.." title="Type in a course title">
+
+            <div style="height:500px; overflow-y: scroll; overflow-x:scroll">
+                <table id="myTable">
+                    <tr>
+                        <th>CRN</th>
+                        <th>DEPT</th>
+                        <th>Course #</th>
+                        <th>Title</th>
+                        <th>Section #</th>
+                        <th>Days and Time</th>
+                        <th>Classroom</th>
+                        <th>Course Instructor</th>
+                    </tr>
+                    <tr>
+                        <td>20458</td>
+                        <td>ITEC</td>
+                        <td>3860</td>
+                        <td>Software Development I</td>
+                        <td>01</td>
+                        <td>MW<br>1530 - 1715</td>
+                        <td>A1520</td>
+                        <td>TBA</td>
+                    </tr>
+                    <tr>
+                        <td>21708</td>
+                        <td>ITEC</td>
+                        <td>3860</td>
+                        <td>Software Development I</td>
+                        <td>02</td>
+                        <td>TR<br>1830 - 2015</td>
+                        <td>B2100</td>
+                        <td>TBA</td>
+                    </tr>
+                    <tr>
+                        <td>21718</td>
+                        <td>ITEC</td>
+                        <td>4550</td>
+                        <td>Mobile Application Development</td>
+                        <td>02</td>
+                        <td>MW<br>1400 - 1515</td>
+                        <td>C1130</td>
+                        <td>TBA</td>
+                    </tr>
+                    <tr>
+                        <td>22272</td>
+                        <td>ITEC</td>
+                        <td>4220</td>
+                        <td>Advanced Data Analytics</td>
+                        <td>01</td>
+                        <td>MW<br>1530 - 1645</td>
+                        <td>B2100</td>
+                        <td>TBA</td>
+                    </tr>
+                    <tr>
+                        <td>20459</td>
+                        <td>ITEC</td>
+                        <td>3870</td>
+                        <td>Software Development II</td>
+                        <td>01</td>
+                        <td>M<br>1830 - 2200</td>
+                        <td>B2200</td>
+                        <td>TBA</td>
+                    </tr>
+                    <tr>
+                        <td>21709</td>
+                        <td>ITEC</td>
+                        <td>3870</td>
+                        <td>Software Development II</td>
+                        <td>02</td>
+                        <td>MW<br>1100 - 1245</td>
+                        <td>B1950</td>
+                        <td>TBA</td>
+                    </tr>
+                </table>
+            </div>
+
+            <script>
+                function myFunction2() {
+                  var input, filter, table, tr, td, i, txtValue;
+                  input = document.getElementById("myInput");
+                  filter = input.value.toUpperCase();
+                  table = document.getElementById("myTable");
+                  tr = table.getElementsByTagName("tr");
+                  for (i = 0; i < tr.length; i++) {
+                    td = tr[i].getElementsByTagName("td")[3];
+                    if (td) {
+                      txtValue = td.textContent || td.innerText;
+                      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                      } else {
+                        tr[i].style.display = "none";
+                      }
+                    }       
+                  }
+                }
+            </script>
+
+    </body>
+</html>

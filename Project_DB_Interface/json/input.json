@@ -1,0 +1,31 @@
+{
+  "name" : {
+      "first" : "Evelyn",
+      "last" : "Brannock"
+  },
+  "email" : "ebrannoc@ggc.edu",
+  "time" : " 04/08/2019 [05:04PM]",
+  "add/change" : {
+      "courseName" : "Information Analytics",
+      "courseSection" : "01",
+      "courseTime" : "05:00P-06:15P",
+      "credits" : "3",
+      "crn" : "82066",
+      "location" : {
+          "room" : "1104",
+          "building" : "W"
+      },
+  "changeTo" : {
+      "courseName" : "Advanced Programming",
+      "courseSection" : "01",
+      "courseTime" : "03:30P-4:45P",
+      "credits" : "3",
+      "crn" : "80122",
+      "location" : {
+          "room" : "1950",
+          "building" : "B"
+      },
+  "profComment" : "I would like to request a schedule change from Information Analytics to Advanced Programming because that works better for my schedule.",
+		}
+	}
+}
