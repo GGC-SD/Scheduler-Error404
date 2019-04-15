@@ -1,27 +1,21 @@
-# Sd1AngularSillyDemo
+# Error404 - Faculty Scheduler output
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.7.
+## Description
+As part of our Software Development I course with Dr. Mihu, we have been working on an interactive output for a Faculty Scheduler. In this output, the faculty is able to see their schedule and request changes for their schedule. The program also allows an administrator to handle any conflicts in schedules.
 
-## Development server
+## Repo Location
+[Error404](https://github.com/GGC-SD/Error404)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Progress Tracking Tools
+Trello
 
-## Code scaffolding
+## Other Communitcation Tools
+Discord
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Team Roles
+1. **Kyle Tate** - UI-UX Design & Client Liason :alien:
+2. **Jonathan Mwizerwa** - Lead Programmer & Project Manager :top:
+3. **Mark Stiller** - Documentation & Testing :floppy_disk:
+4. **Joshua Walton** - Data Modeling & Testing Lead :metal::pray:
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Installation Instructions:
