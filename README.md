@@ -19,3 +19,4 @@ Discord
 4. **Joshua Walton** - Data Modeling & Testing Lead :metal::pray:
 
 ## Installation Instructions:
+No added softwares, besides Angular (npm install)
