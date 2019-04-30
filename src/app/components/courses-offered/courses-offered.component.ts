@@ -12,7 +12,7 @@ export class CoursesOfferedComponent implements OnInit {
   constructor(private router: Router) { }
 
   navigate() {
-    this.router.navigate([""]);
+    this.router.navigate(["homepage-faculty"]);
   }
 
   courses: any[] = [
